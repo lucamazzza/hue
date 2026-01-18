@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cff57344fc9ee9e4aba1477ca90cd903, type: 3}
+  m_Name: Dragon
+  m_EditorClassIdentifier: Assembly-CSharp::MinionStatsSO
+  minionName: Dragon
+  minionIcon: {fileID: 21300000, guid: 0feb5e8bb9b7e022f861b0f307194bed, type: 3}
+  minionPrefab: {fileID: 3351156597422643079, guid: 6cf736f3356881166a14e4ee4d9f879c, type: 3}
+  coloringPrefab: {fileID: 3351156597422643079, guid: 6cf736f3356881166a14e4ee4d9f879c, type: 3}
+  savedCustomTexture: {fileID: 0}
+  maxHealth: 6
+  attack: 2
+  speed: 0.1
+  defence: 1.5
+  luck: 0.5
+  attackMove: {fileID: 11400000, guid: d00419ab2094b440c9ae4612ab2f6aff, type: 2}
+  defendMove: {fileID: 11400000, guid: b3e794e471bf0bd488bfdf49a1f29fad, type: 2}
+  specialMove: {fileID: 11400000, guid: b9556b6374b57584b9233d09d4263c49, type: 2}
+  fleeMove: {fileID: 11400000, guid: b90a378a52e72754194015add2c9fe2b, type: 2}
+  damageSoundClips:
+  - {fileID: 8300000, guid: 5794771000d014d859b0bb9963f74189, type: 3}
+  - {fileID: 8300000, guid: d1d9d06da20704275a613cb07267b55e, type: 3}
+  - {fileID: 8300000, guid: cbadb9237250647c9bbe88880d1dd1ff, type: 3}
+  specialSoundClip: {fileID: 8300000, guid: 1fc1f3bfb6da047eb97e086294430f73, type: 3}

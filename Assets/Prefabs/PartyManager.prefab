@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &906995036755853586
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1439703182092975977}
+  - component: {fileID: 3519381311448753457}
+  m_Layer: 5
+  m_Name: PartyManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1439703182092975977
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906995036755853586}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 43.248405, y: 0, z: 84.44371}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3519381311448753457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906995036755853586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: accad431d2d09b1e38071eb1566c33e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PartyManager
+  startingMinionAssets:
+  - {fileID: 11400000, guid: eab0e1e5412a148178b3a7459283cfae, type: 2}
+  - {fileID: 11400000, guid: a9154cb982e3f9b33a244638a8569f81, type: 2}
+  - {fileID: 11400000, guid: 29b1e61b14c3371a5a7cb12560bcef6c, type: 2}
+  - {fileID: 11400000, guid: 0588b6b0f4ec53a9ea6d6f067596b7d9, type: 2}
+  - {fileID: 11400000, guid: 36aac0f40214381febf2d45495d98d0d, type: 2}
+  - {fileID: 11400000, guid: 88a1231659bf25916a2e5a8231b331b2, type: 2}
+  - {fileID: 11400000, guid: b09b7d90eca244348b873f3617466883, type: 2}
+  - {fileID: 11400000, guid: ccb0b88bae5ae1c43acf47a2fde01dfc, type: 2}
+  - {fileID: 11400000, guid: 0d009813e216e6c3b9ee694c7492dcab, type: 2}
+  - {fileID: 11400000, guid: 94753e2e182df60efa061c577981079c, type: 2}
+  - {fileID: 11400000, guid: 92af74e8700ce55c7b481cc9e0501862, type: 2}
+  - {fileID: 11400000, guid: 05986976561e739a3a3b0e12f58897a8, type: 2}
+  - {fileID: 11400000, guid: 047be43fee89869b394c30f6c5765a46, type: 2}
+  - {fileID: 11400000, guid: 94c654e9eced3aee7a1a1aa3dffaa5d8, type: 2}
+  - {fileID: 11400000, guid: 3986215597feb54f38c03a52f50925b2, type: 2}
+  unlockedMinions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  partyMinions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

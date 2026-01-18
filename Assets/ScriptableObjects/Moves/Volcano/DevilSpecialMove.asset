@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eafbe78d431f14c1ea51bbd7fda05990, type: 3}
+  m_Name: DevilSpecialMove
+  m_EditorClassIdentifier: Assembly-CSharp::SpecialMoveSO
+  moveName: Devil Special Move
+  moveType: 0
+  attack: 1
+  defence: 0
+  luck: 0
+  speed: 0
+  damageMultiplier: 1.5
+  vfxPrefab: {fileID: 0}
+  vfxOffset: {x: 0, y: 0, z: 0}
+  vfxDuration: 2
+  vfxOnAttacker: 0
+  soundEffect: {fileID: 0}
+  effectType: 3
+  effectChance: 100
+  poisonDamagePerTick: 5
+  poisonDuration: 3
+  healAmount: 20
+  healSelf: 0
+  burnDamagePerTick: 8
+  burnDuration: 2
+  stunDuration: 1
+  attackBoost: 10
+  defenseBoost: 5
+  buffDuration: 2
+  buffSelf: 1
+  animationTrigger: SpecialAttack
+  cooldownTurns: 0

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cff57344fc9ee9e4aba1477ca90cd903, type: 3}
+  m_Name: Fine
+  m_EditorClassIdentifier: Assembly-CSharp::MinionStatsSO
+  minionName: Fine
+  minionIcon: {fileID: 21300000, guid: b1a16b18cd7df585abec00816a0d58a3, type: 3}
+  minionPrefab: {fileID: 8984005632122191052, guid: b3fa2bc1f55c41dba8b113562dc1bae0, type: 3}
+  coloringPrefab: {fileID: 8984005632122191052, guid: b3fa2bc1f55c41dba8b113562dc1bae0, type: 3}
+  savedCustomTexture: {fileID: 0}
+  maxHealth: 100
+  attack: 52
+  speed: 1
+  defence: 0
+  luck: 0.5
+  attackMove: {fileID: 11400000, guid: 1aa0b3cae27ab45d7a5520f43c821cfe, type: 2}
+  defendMove: {fileID: 11400000, guid: d0df0a5aee6a64187aa48dc092b7cd83, type: 2}
+  specialMove: {fileID: 11400000, guid: 0881048b7a3804ca8adb7fe8845c239c, type: 2}
+  fleeMove: {fileID: 11400000, guid: b90a378a52e72754194015add2c9fe2b, type: 2}
+  damageSoundClips:
+  - {fileID: 8300000, guid: 5794771000d014d859b0bb9963f74189, type: 3}
+  - {fileID: 8300000, guid: d1d9d06da20704275a613cb07267b55e, type: 3}
+  - {fileID: 8300000, guid: cbadb9237250647c9bbe88880d1dd1ff, type: 3}
+  specialSoundClip: {fileID: 8300000, guid: 1bd9517c0fb5846a5a910b45445cb584, type: 3}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cff57344fc9ee9e4aba1477ca90cd903, type: 3}
+  m_Name: Fish
+  m_EditorClassIdentifier: Assembly-CSharp::MinionStatsSO
+  minionName: Fish
+  minionIcon: {fileID: 21300000, guid: 53ccd2e839655450c8b08b5a6aaebe05, type: 3}
+  minionPrefab: {fileID: 2819712067084405389, guid: d1eaa11b143506269be6b390e41916c1, type: 3}
+  coloringPrefab: {fileID: 2819712067084405389, guid: d1eaa11b143506269be6b390e41916c1, type: 3}
+  savedCustomTexture: {fileID: 0}
+  maxHealth: 3
+  attack: 2
+  speed: 3
+  defence: 0.2
+  luck: 0.5
+  attackMove: {fileID: 11400000, guid: de52782e64f0144dbb3c9d434512447f, type: 2}
+  defendMove: {fileID: 11400000, guid: 655fbc6ac8fd945e4aa0846b49c629c4, type: 2}
+  specialMove: {fileID: 11400000, guid: aaa5337ab714040da9af26ebd2f7d89f, type: 2}
+  fleeMove: {fileID: 11400000, guid: b90a378a52e72754194015add2c9fe2b, type: 2}
+  damageSoundClips:
+  - {fileID: 8300000, guid: 5794771000d014d859b0bb9963f74189, type: 3}
+  - {fileID: 8300000, guid: d1d9d06da20704275a613cb07267b55e, type: 3}
+  - {fileID: 8300000, guid: cbadb9237250647c9bbe88880d1dd1ff, type: 3}
+  specialSoundClip: {fileID: 8300000, guid: 08d682bc6a0824ca98a638f49b52ecc9, type: 3}

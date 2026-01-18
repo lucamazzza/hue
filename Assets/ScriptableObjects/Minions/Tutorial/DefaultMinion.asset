@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cff57344fc9ee9e4aba1477ca90cd903, type: 3}
+  m_Name: DefaultMinion
+  m_EditorClassIdentifier: Assembly-CSharp::MinionStatsSO
+  minionName: CardboardWarrior
+  minionIcon: {fileID: 21300000, guid: c6e6829fc21fdda07b91360fb61e6126, type: 3}
+  minionPrefab: {fileID: 963028687510459011, guid: 0f67f145169698f25ad1d8db36ea76cd, type: 3}
+  coloringPrefab: {fileID: 0}
+  savedCustomTexture: {fileID: 0}
+  maxHealth: 5
+  attack: 2
+  speed: 2
+  defence: 0.2
+  luck: 2
+  attackMove: {fileID: 11400000, guid: d00419ab2094b440c9ae4612ab2f6aff, type: 2}
+  defendMove: {fileID: 11400000, guid: b3e794e471bf0bd488bfdf49a1f29fad, type: 2}
+  specialMove: {fileID: 11400000, guid: b9556b6374b57584b9233d09d4263c49, type: 2}
+  fleeMove: {fileID: 11400000, guid: b90a378a52e72754194015add2c9fe2b, type: 2}
+  damageSoundClips:
+  - {fileID: 8300000, guid: 5794771000d014d859b0bb9963f74189, type: 3}
+  - {fileID: 8300000, guid: d1d9d06da20704275a613cb07267b55e, type: 3}
+  - {fileID: 8300000, guid: cbadb9237250647c9bbe88880d1dd1ff, type: 3}
+  specialSoundClip: {fileID: 8300000, guid: d1d9d06da20704275a613cb07267b55e, type: 3}

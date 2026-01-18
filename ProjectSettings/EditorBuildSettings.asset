@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/StartMenu.unity
+    guid: cd964839063121a129c4e5d3cbf4a8cb
+  - enabled: 1
+    path: Assets/Scenes/LevelTutorial.unity
+    guid: 0e48bd34dcc24c58cac4a2eebbb6eb14
+  - enabled: 1
+    path: Assets/Scenes/LevelSea.unity
+    guid: 28f02337fa5132ba0ae289b65c7b38c1
+  - enabled: 1
+    path: Assets/Scenes/LevelVolcano.unity
+    guid: 4dd7c44f5de452818bd860c8dd711539
+  - enabled: 1
+    path: Assets/Scenes/LevelForest.unity
+    guid: ec336c14f2100d64ca59a2f331993f33
+  - enabled: 1
+    path: Assets/Scenes/CombatLevelVolcano.unity
+    guid: 325dbc7541569eb4e9a318f2a23a40a7
+  - enabled: 1
+    path: Assets/Scenes/CombatLevelTutorial.unity
+    guid: 7247d50a3fa3fa14db186cf933a723fd
+  - enabled: 1
+    path: Assets/Scenes/CombatLevelForest.unity
+    guid: 0b006584956b3fe4ca37038ec6c1918b
+  - enabled: 1
+    path: Assets/Scenes/CombatLevelBeach.unity
+    guid: 386bfbdfb9ee5fdf1b95b28a195b986d
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 5f0102a5d67e50e408947df75943204b
+  - enabled: 1
+    path: Assets/Scenes/WinScene.unity
+    guid: e3b9676ccd0d84d4e8f2e71e5fb017d6
+  - enabled: 1
+    path: Assets/Scenes/ColoringScene.unity
+    guid: 3d7465893cc2a584b864c9c0af503c23
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_UseUCBPForAssetBundles: 0
