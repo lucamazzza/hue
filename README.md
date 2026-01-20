@@ -13,3 +13,4 @@
 
 > [!NOTE]
 > README is under construction
+> For now, this is a fnuy game
