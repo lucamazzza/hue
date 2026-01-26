@@ -10,7 +10,11 @@
 
 </p>
 
+What is it?
+-----------
 
-> [!NOTE]
-> README is under construction
-> For now, this is a fnuy game
+HUE is a funny videogame developed for an academical course about game development.
+It is the effort of 4 people to produce something original and funny.
+This effort led to the creation of a quirky carboard world filled with jolly animals and monsters
+that make for an awesome RP adventure.
+
