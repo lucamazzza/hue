@@ -18,3 +18,12 @@ It is the effort of 4 people to produce something original and funny.
 This effort led to the creation of a quirky carboard world filled with jolly animals and monsters
 that make for an awesome RP adventure.
 
+On what hardware does it run?
+-----------------------------
+
+HUE is made with Unity and therefore can possibly run on any hardware supported by the aforementioned 
+game engine, when built with the right settings. 
+
+> [!WARNING]
+> The game still has some resolution problems with its 
+> UI canvase
